@@ -17,7 +17,7 @@ class LFUCache(BaseCaching):
     def put(self, key, item):
         """
         Add an item to the cache.
-        
+
         Args:
             key (str): The key to be added.
             item (str): The item to be cached.
@@ -34,10 +34,10 @@ class LFUCache(BaseCaching):
     def get(self, key):
         """
         Retrieve an item from the cache.
-        
+
         Args:
             key (str): The key of the item to retrieve.
-            
+
         Returns:
             str: The cached item.
         """
